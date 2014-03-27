@@ -1,7 +1,8 @@
 OpenGL-Cube
 ===========
 
-Very simple OpenGL project that makes a pretty, rotating, cube.
+Very simple OpenGL project that makes a pretty, rotating, cube, and allows the user to change the rotation speed and axis.
+
 It has the VBO, EBO, VAO, window, and shader initialization pullled out of the main function,
 which proved to be slightly more difficult than expected.
 
