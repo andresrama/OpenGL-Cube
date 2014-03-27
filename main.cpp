@@ -19,11 +19,11 @@ GLuint VertexBuffer, VertexArray, ElementBuffer, ShaderProgram;
 GLfloat vertices[] = {
 		-0.5, 0.5, 0.5, 1.0, 0.0, 0.0,	// Front Top Left		- Red	- 0
 		0.5,  0.5, 0.5, 0.0, 1.0, 0.0,	// Front Top Right		- Green	- 1
-		0.5, -0.5, 0.5, 0.0, 0.0, 1.0,	// Front Bottom Right	- Blue	- 2
-		-0.5,-0.5, 0.5, 0.0, 1.0, 1.0,	// Front Bottom Left	- Cyan	- 3
+		0.5, -0.5, 0.5, 0.0, 0.0, 1.0,	// Front Bottom Right		- Blue	- 2
+		-0.5,-0.5, 0.5, 0.0, 1.0, 1.0,	// Front Bottom Left		- Cyan	- 3
 		-0.5, 0.5,-0.5, 1.0, 0.0, 1.0,	// Back Top Left		- Pink	- 4
 		0.5,  0.5,-0.5, 1.0, 1.0, 0.0,	// Back Top Right		- Yellow- 5
-		0.5, -0.5,-0.5, 0.1, 0.1, 0.1,	// Back Bottom Right	- White - 6
+		0.5, -0.5,-0.5, 0.1, 0.1, 0.1,	// Back Bottom Right		- White - 6
 		-0.5,-0.5,-0.5, 1.0, 1.0, 1.0,	// Back Bottom Left		- Gray  - 7
 };
 
