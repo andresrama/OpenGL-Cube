@@ -135,12 +135,6 @@ GLuint CreateVertexArray(){
 }
 
 void InitializeVertexArray(GLuint ShaderProgram){
-	/*
-	GLint PosAttrib = glGetAttribLocation(ShaderProgram, "position");
-	glVertexAttribPointer(PosAttrib, 3, GL_FLOAT, GL_FALSE, 0, 0);
-	glEnableVertexAttribArray(PosAttrib);
-	*/
-
 	GLint posAttrib = glGetAttribLocation(ShaderProgram, "position");
 	CheckForGLErrors(__func__, __LINE__);
 	glEnableVertexAttribArray(posAttrib);
